@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birds: A Picture Gallery</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+    * {
+        font-family: 'Lato', sans-serif;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* .birds {
+        
+    } */
+
+    .birds .container {
+        font-size: 1.5rem;
+        /* border: 1px solid black; */
+        padding: 5%;
+        background: url(birds_img/kingfisher.jpg) no-repeat 100% 30%/cover;
+        color: #fff;
+    }
+
+    .bird-quote {
+        text-align: center;
+        font-size: 1.05rem;
+        font-weight: bolder;
+        background-color: aqua;
+        border: 1px solid aqua;
+    }
+
+    .gallery {
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .gallery-item {
+        margin: 10px;
+    }
+
+    .gallery-item img {
+        width: 300px;
+        height: 250px;
+    }
+
+    footer {
+        background-color: blue;
+        height: 10vh;
+    }
+
+</style>
+
+<body>
+    <section class="birds">
+        <div class="container">
+            <h1>Birds: A Picture Gallery</h1>
+        </div>
+        <div class="bird-quote">
+            <p>In order to see birds it is necessary to become a part of the silence. - Robert Lynd</p>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="gallery-item">
+            <img src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/202984001" alt="">
+        </div>
+        <div class="gallery-item">
+            <img src="https://post.greatist.com/wp-content/uploads/sites/3/2020/01/327269_2200-1200x628.jpg" alt="">
+        </div>
+        <div class="gallery-item">
+            <img src="https://ychef.files.bbci.co.uk/624x351/p02knl9s.jpg" alt="">
+        </div>
+        <div class="gallery-item">
+            <img src="https://see.news/wp-content/uploads/2020/12/UK_wildbirds-01-robin.jpg" alt="">
+        </div>
+    </section>
+    <footer></footer>
+</body>
+</html>
