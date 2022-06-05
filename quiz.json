@@ -1,0 +1,479 @@
+{
+    "Data Literacy":
+        [
+        {
+            "id": 1,
+            "question":"Which of these can be referred to as Data?",
+            "choices": [
+                "Twitter Feed",
+                "Media (Video, Pictures and Audio)",
+                "Customer Details and Transactions",
+                "Customer Feedback",
+                "All of the above"],
+                "answer": "All of the above",
+                "explaination":"Data can be structured or unstructured."
+        },
+        {
+            "id": 2,
+            "question":"Data in ____bytes size is called Big Data?",
+            "choices": [
+                "Tera",
+                "Giga",
+                "Peta",
+                "Meta"],
+            "answer": "Peta",
+            "explaination":"data in Peta bytes i.e. 10^15 byte size is called Big Data"
+        },
+        {
+            "id": 3,
+            "question":"Financial Transaction Data of the Bank is",
+            "choices": [
+                "Structured Data",
+                "Unstructured Data",
+                "Both Structured and Unstructured",
+                "None of the above",
+                "All of the above"],
+            "answer": "Structured Data",
+            "explaination":"Data which can be saved in tables are structured data like the transaction data of the bank"
+        },
+
+        {
+            "id": 4,
+            "question":"Which of the following are Benefits of Big Data Processing?",
+            "choices": [
+                "Businesses can utilize outside intelligence while taking decisions",
+                "Improved customer service",
+                "Better operational efficiency",
+                "All of the above"],
+            "answer": "All of the above",
+            "explaination":"All of the above are Benefits of Big Data Processing"
+        },
+
+        {
+            "id": 5,
+            "question":"What is a CSV file?",
+            "choices": [
+                "Current System Version",
+                "Comma Seperated Values",
+                "Character Size Values",
+                "None of the above"],
+            "answer": "Comma Seperated Values",
+            "explaination":"Comma Seperated Values allows data to be saved in a tabular format. It can be read by most programs and uses minimal storage space compared to excel files"
+        },
+        {
+            "id": 6,
+            "question":"What is Python?",
+            "choices": [
+                "Programming language",
+                "ERP Software",
+                "Name of a Company",
+                "None of the above"],
+                "answer": "Programming language",
+                "explaination":"A high-level general-purpose programming language used extensively in the Data Analytics space."
+        },
+        {
+            "id": 7,
+            "question":"Which tools are suited for Big Data?",
+            "choices": [
+                "Python & R",
+                "Excel & Access",
+                "SAS",
+                "All of the above"],
+                "answer": "Python & R",
+                "explaination":"The best all-around language for working with data is Python, while R is used extensively by data miners and data scientists to analyze data."
+        },
+
+        {
+            "id": 8,
+            "question":"What is the need to Process Data?",
+            "choices": [
+                "Improves Accuracy and Readability",
+                "Improves Search Efficiency",
+                "Prepares Data for Visualisation",
+                "Prepared Data for Machine Learning and AI",
+                "All of the above"],
+                "answer": "All of the above",
+                "explaination":"Data Processing has a multitude of benefits"
+        },
+        {
+            "id": 9,
+            "question":"What is Null Value Treatment?",
+            "choices": [
+                "Fill Blank Cells with appropriate values",
+                "Remove Rows and Columns with Blank Cells",
+                "Both of the above",
+                "None of the above"],
+                "answer": "Both of the above",
+                "explaination":"We can delete a particular column if it has more than 70-75% of missing values."
+        },
+        {
+            "id": 10,
+            "question":"What is Encoding in Data Processing?",
+            "choices": [
+                "Converting text to a specified format, commonly numeric or binary",
+                "Increasing the security of the data",
+                "Turning thoughts into communication",
+                "None of the above"],
+                "answer": "Converting text to a specified format, commonly numeric or binary",
+                "explaination":"Encoding is the process of converting the data or a given sequence of characters, symbols, alphabets etc., into a specified format, for the secured transmission of data."
+        },
+
+        {
+            "id": 11,
+            "question":"What is Data Visualisation?",
+            "choices": [
+                "Representing information in the form of charts or pictures",
+                "Refers to visually seeing the data in tabular format",
+                "None of the above"],
+                "answer": "Representing information in the form of charts or pictures",
+                "explaination":"Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data."
+        },
+        {
+            "id": 12,
+            "question":"Why should we process the Data before visualizing?",
+            "choices": [
+                "To improve accuracy",
+                "To enable easily readibility of charts",
+                "Prevent skewed representation of information",
+                "All of the above"],
+                "answer": "All of the above",
+                "explaination":"Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data."
+        },
+        {
+            "id": 13,
+            "question":"Which of these tools are most popular for Data Modelling in Banking?",
+            "choices": [
+                "Python",
+                "R",
+                "SAS",
+                "All of the above"],
+                "answer": "All of the above",
+                "explaination":"Python, R and SAS are the most popular tools used for Data Modelling in Banking"
+        },
+
+        {
+            "id": 14,
+            "question":"What is Machine Learning?",
+            "choices": [
+                "Robotics is another term for Machine Learning",
+                "Ability of computer systems to predict by learning and adapting by using statistical models on past data",
+                "None of the above"],
+                "answer": "Ability of computer systems to predict by learning and adapting by using statistical models on past data",
+                "explaination":"Machine learning is a branch of artificial intelligence (AI) focused on building applications that learn from data and improve their accuracy over time without being programmed to do so"
+        }
+    ],
+    "SQL Primer for Data Analysis":
+        [
+
+            {
+                "id": 1,
+                "question":"What is SQL?;",
+                "choices": [
+                    "A Database",
+                    "A Data Management Tool",
+                    "A Query Language"],
+                    "answer": "A Query Language",
+                    "explaination":"Structured Query Language or SQL is language that can be used to query compatible databases"
+            },
+            {
+            "id": 2,
+            "question":"_____ * from customers;",
+            "choices": [
+                "SELECT",
+                "UPDATE",
+                "READ",
+                "VIEW"],
+                "answer": "SELECT",
+                "explaination":"SELECT * from customers will fetch all rows from the customers table"
+        },
+        {
+            "id": 3,
+            "question":"SELECT * from customers; What is customers in this query?",
+            "choices": [
+                "Database",
+                "Row",
+                "Table",
+                "Column"],
+            "answer": "Table",
+            "explaination":"We use the SELECT statement to fetch rows from a Table in a database"
+        },
+        {
+            "id": 4,
+            "question":"SELECT client_id, CONCAT(first,' ',last) AS fullname from customers;",
+            "choices": [
+                "Returns an error",
+                "Returns the client_id and fullname from customers table",
+                "Returns the client_id and first name from customers table"],
+            "answer": "Returns the client_id and fullname from customers table",
+            "explaination":"SELECT statement can be used to return specific columns from a table. The columns can also be displayed with an ALIAS, using the 'AS' keyword"
+        },
+
+        {
+            "id": 5,
+            "question":"SELECT max(age) AS max_age, gender from customer GROUP BY gender;",
+            "choices": [
+                "Returns an error",
+                "Returns a single row containing the maximum age of customers",
+                "Returns the maximum age of customers grouped by gender"
+            ],
+            "answer": "Returns the maximum age of customers grouped by gender",
+            "explaination":"Aggregate functions are best when used with the GROUP By clause"
+        },
+
+        {
+            "id": 6,
+            "question":"Mark the correct JOIN statement",
+            "choices": [
+                "SELECT JOIN customer.first, district.state_name from customer WHERE district on customer.district_id = district.district_id;",
+                "SELECT customer.first, district.state_name from customer JOIN district on customer.district_id = district.district_id;",
+                "SELECT customer.first, district.state_name from customer WHERE district JOIN ON customer.district_id = district.district_id;"
+            ],
+            "answer": "SELECT customer.first, district.state_name from customer JOIN district on customer.district_id = district.district_id;",
+            "explaination":"SELECT <tablename.column> from <table1> JOIN <table2> ON <condition1>"
+        },
+        {
+            "id": 7,
+            "question":"SELECT from complaints;",
+            "choices": [
+                "Returns an error",
+                "Returns all rows from table complaints",
+                "None of the above"],
+                "answer": "Returns an error",
+                "explaination":"Either the columns names or the asterik symbol must be used when using the SELECT statement."
+        },
+        {
+            "id": 8,
+            "question":"Which command will return a unique list of cities?",
+            "choices": [
+                "select DISTINCT city from customer;",
+                "select city from customer;",
+                "select COUNT(city) from customer;"
+                ],
+                "answer": "select DISTINCT city from customer;",
+                "explaination":"The DISTINCT clause will return a unique list of values for the specified columns"
+        },
+
+        {
+            "id": 9,
+            "question":"select * from customer,district;",
+            "choices": [
+                "Returns an error",
+                "Returns rows from both tables without any relationship. Incorrect approach",
+                "Returns no rows"],
+                "answer": "Returns rows from both tables without any relationship. Incorrect approach",
+                "explaination":"The JOIN clause has to be used when fetching rows from multiple tables"
+        },
+        {
+            "id": 10,
+            "question":"Return all customers greater than the average customer age",
+            "choices": [
+                "SELECT * from customer where age > (select avg(age) from customer);",
+                "SELECT * from customer where age > avg(age);",
+                "SELECT avg(age) from customer;"],
+                "answer": "SELECT * from customer where age > (select avg(age) from customer);",
+                "explaination":"An aggregate cannot appear in the WHERE clause unless it is enclosed in a subquery"
+        }
+    ],
+    "Analytics using R":
+        [
+
+            {
+                "id": 1,
+                "question":"How do you create a variable named x with the numeric value 5?",
+                "choices": [
+                    "int x = 5",
+                    "x <- 5",
+                    "int x = 5"],
+                    "answer": "x <- 5",
+                    "explaination":""
+            },
+            {
+            "id": 2,
+            "question":"The value of a string variable can be surrounded by single quotes.",
+            "choices": [
+                "True",
+                "False"
+            	],
+                "answer": "True",
+                "explaination":""
+        },
+        {
+            "id": 3,
+            "question":"Which operator can be used to compare two values?",
+            "choices": [
+                "=",
+                "==",
+                "<>",
+                "><"],
+            "answer": "==",
+            "explaination":""
+        },
+        {
+            "id": 4,
+            "question":"Consider the following code: for (x 1:10). Which keyword is missing inside the for loop to output the numbers 1 to 10?",
+            "choices": [
+                "inside",
+                "list",
+                "in",
+			    "seq"],
+            "answer": "in",
+            "explaination":""
+        },
+
+        {
+            "id": 5,
+            "question":"What is the correct way to create a vector of strings?",
+            "choices": [
+                "salesman <- c('Sarah','Hisham','Tim')",
+                "salesman <- v('Sarah','Hisham','Tim')",
+                "salesman <- listof('Sarah','Hisham','Tim')",
+			    "salesman <- list('Sarah','Hisham','Tim')"
+            ],
+            "answer": "salesman <- v('Sarah','Hisham','Tim')",
+            "explaination":""
+        },
+
+        {
+            "id": 6,
+            "question":"What is the correct way to create a list of strings?",
+            "choices": [
+                "salesman <- list('Sarah','Hisham','Tim')",
+                "salesman <- v('Sarah','Hisham','Tim')",
+                "salesman <- c('Sarah','Hisham','Tim')",
+			 "salesman <- vectorof('Sarah','Hisham','Tim')"
+            ],
+            "answer": "salesman <- list('Sarah','Hisham','Tim')",
+            "explaination":""
+        },
+        {
+            "id": 7,
+            "question":"Which function can be used to create a data frame?",
+            "choices": [
+                "dframe()",
+                "df()",
+                "data.frame",
+			    "dataframe"],
+                "answer": "data.frame",
+                "explaination":""
+        },
+        {
+            "id": 8,
+            "question":"How do you start writing an if statement in R?",
+            "choices": [
+                "if(x>y)",
+                "if x>y:",
+                "if x>y then:"
+                ],
+                "answer": "if(x>y)",
+                "explaination":""
+        },
+
+        {
+            "id": 9,
+            "question":"Which is the correct code for installing multiple packages",
+            "choices": [
+                "install('tidyverse','ROCR','rpart')",
+                "install.packages('tidyverse','ROCR','rpart')",
+                "install.package('tidyverse','ROCR','rpart')"
+            ],
+                "answer": "install.packages('tidyverse','ROCR','rpart')",
+                "explaination":""
+        }
+    ],
+    "Python Foundation - Fast Track":
+        [
+
+            {
+                "id": 1,
+                "question":"Which one is NOT a legal variable name?",
+                "choices": [
+                    "my_var",
+                    "my-var",
+                    "_myvar",
+                    "Myvar"],
+                    "answer": "my-var",
+                    "explaination":"Special characters other than underscore are not legal in a variable name"
+            },
+            {
+            "id": 2,
+            "question":"How do you create a variable with numeric value 5?",
+            "choices": [
+                "x=int(5)",
+                "x=5",
+                "Both usages are correct"
+            	],
+                "answer": "Both usages are correct",
+                "explaination":""
+        },
+        {
+            "id": 3,
+            "question":"What is the correct extension for python files?",
+            "choices": [
+                ".pyth",
+                ".pt",
+                ".py",
+                ".pyt"],
+            "answer": ".py",
+            "explaination":""
+        },
+        {
+            "id": 4,
+            "question":"What is the correct way to create a function in Python?",
+            "choices": [
+                "function myFunction()",
+                "def myFunction()",
+                "create myFunction()"
+			],
+            "answer": "def myFunction()",
+            "explaination":""
+        },
+
+        {
+            "id": 5,
+            "question":"In Python, which operator is used to multiply numbers",
+            "choices": [
+                "x",
+                "*",
+                "Neither of the above"
+            ],
+            "answer": "*",
+            "explaination":""
+        },
+
+        {
+            "id": 6,
+            "question":"Which operator is used to compare two values?",
+            "choices": [
+                "=",
+                "==",
+                "<>",
+			 "><"
+            ],
+            "answer": "==",
+            "explaination":""
+        },
+        {
+            "id": 7,
+            "question":"Which of these defines a Python LIST?",
+            "choices": [
+                "['Sam','Daniel','Ashraf']",
+                "('Sam','Daniel','Ashraf')",
+                "{'Name':'Sam'}"
+            ],
+                "answer": "['Sam','Daniel','Ashraf']",
+                "explaination":""
+        },
+        {
+            "id": 8,
+            "question":"How do you start writing an if statement in Python?",
+            "choices": [
+                "if x>y:",
+                "if (x>y)",
+                "if x>y then:"
+                ],
+                "answer": "if x>y:",
+                "explaination":""
+        }
+        
+    ]
+}
